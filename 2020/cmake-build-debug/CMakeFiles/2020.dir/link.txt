@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/2020.dir/t1.c.o -o 2020 
