@@ -130,82 +130,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named day4.2
+# Target rules for targets named day2.1
 
 # Build rule for target.
-day4.2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day4.2
-.PHONY : day4.2
+day2.1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day2.1
+.PHONY : day2.1
 
 # fast build rule for target.
-day4.2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/day4.2.dir/build.make CMakeFiles/day4.2.dir/build
-.PHONY : day4.2/fast
-
-#=============================================================================
-# Target rules for targets named day3.2
-
-# Build rule for target.
-day3.2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day3.2
-.PHONY : day3.2
-
-# fast build rule for target.
-day3.2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/day3.2.dir/build.make CMakeFiles/day3.2.dir/build
-.PHONY : day3.2/fast
-
-#=============================================================================
-# Target rules for targets named day1.1
-
-# Build rule for target.
-day1.1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day1.1
-.PHONY : day1.1
-
-# fast build rule for target.
-day1.1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/day1.1.dir/build.make CMakeFiles/day1.1.dir/build
-.PHONY : day1.1/fast
-
-#=============================================================================
-# Target rules for targets named day4.1
-
-# Build rule for target.
-day4.1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day4.1
-.PHONY : day4.1
-
-# fast build rule for target.
-day4.1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/day4.1.dir/build.make CMakeFiles/day4.1.dir/build
-.PHONY : day4.1/fast
-
-#=============================================================================
-# Target rules for targets named day1.2
-
-# Build rule for target.
-day1.2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day1.2
-.PHONY : day1.2
-
-# fast build rule for target.
-day1.2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/day1.2.dir/build.make CMakeFiles/day1.2.dir/build
-.PHONY : day1.2/fast
-
-#=============================================================================
-# Target rules for targets named day2.2
-
-# Build rule for target.
-day2.2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day2.2
-.PHONY : day2.2
-
-# fast build rule for target.
-day2.2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2.2.dir/build.make CMakeFiles/day2.2.dir/build
-.PHONY : day2.2/fast
+day2.1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2.1.dir/build.make CMakeFiles/day2.1.dir/build
+.PHONY : day2.1/fast
 
 #=============================================================================
 # Target rules for targets named day3.1
@@ -221,17 +156,108 @@ day3.1/fast:
 .PHONY : day3.1/fast
 
 #=============================================================================
-# Target rules for targets named day2.1
+# Target rules for targets named day2.2
 
 # Build rule for target.
-day2.1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day2.1
-.PHONY : day2.1
+day2.2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day2.2
+.PHONY : day2.2
 
 # fast build rule for target.
-day2.1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2.1.dir/build.make CMakeFiles/day2.1.dir/build
-.PHONY : day2.1/fast
+day2.2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day2.2.dir/build.make CMakeFiles/day2.2.dir/build
+.PHONY : day2.2/fast
+
+#=============================================================================
+# Target rules for targets named day4.1
+
+# Build rule for target.
+day4.1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day4.1
+.PHONY : day4.1
+
+# fast build rule for target.
+day4.1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day4.1.dir/build.make CMakeFiles/day4.1.dir/build
+.PHONY : day4.1/fast
+
+#=============================================================================
+# Target rules for targets named day5.2
+
+# Build rule for target.
+day5.2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day5.2
+.PHONY : day5.2
+
+# fast build rule for target.
+day5.2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day5.2.dir/build.make CMakeFiles/day5.2.dir/build
+.PHONY : day5.2/fast
+
+#=============================================================================
+# Target rules for targets named day1.1
+
+# Build rule for target.
+day1.1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day1.1
+.PHONY : day1.1
+
+# fast build rule for target.
+day1.1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day1.1.dir/build.make CMakeFiles/day1.1.dir/build
+.PHONY : day1.1/fast
+
+#=============================================================================
+# Target rules for targets named day3.2
+
+# Build rule for target.
+day3.2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day3.2
+.PHONY : day3.2
+
+# fast build rule for target.
+day3.2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day3.2.dir/build.make CMakeFiles/day3.2.dir/build
+.PHONY : day3.2/fast
+
+#=============================================================================
+# Target rules for targets named day1.2
+
+# Build rule for target.
+day1.2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day1.2
+.PHONY : day1.2
+
+# fast build rule for target.
+day1.2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day1.2.dir/build.make CMakeFiles/day1.2.dir/build
+.PHONY : day1.2/fast
+
+#=============================================================================
+# Target rules for targets named day4.2
+
+# Build rule for target.
+day4.2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day4.2
+.PHONY : day4.2
+
+# fast build rule for target.
+day4.2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day4.2.dir/build.make CMakeFiles/day4.2.dir/build
+.PHONY : day4.2/fast
+
+#=============================================================================
+# Target rules for targets named day5.1
+
+# Build rule for target.
+day5.1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day5.1
+.PHONY : day5.1
+
+# fast build rule for target.
+day5.1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day5.1.dir/build.make CMakeFiles/day5.1.dir/build
+.PHONY : day5.1/fast
 
 day1.1.o: day1.1.c.o
 
@@ -449,6 +475,60 @@ day4.2.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/day4.2.dir/build.make CMakeFiles/day4.2.dir/day4.2.c.s
 .PHONY : day4.2.c.s
 
+day5.1.o: day5.1.c.o
+
+.PHONY : day5.1.o
+
+# target to build an object file
+day5.1.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day5.1.dir/build.make CMakeFiles/day5.1.dir/day5.1.c.o
+.PHONY : day5.1.c.o
+
+day5.1.i: day5.1.c.i
+
+.PHONY : day5.1.i
+
+# target to preprocess a source file
+day5.1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day5.1.dir/build.make CMakeFiles/day5.1.dir/day5.1.c.i
+.PHONY : day5.1.c.i
+
+day5.1.s: day5.1.c.s
+
+.PHONY : day5.1.s
+
+# target to generate assembly for a file
+day5.1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day5.1.dir/build.make CMakeFiles/day5.1.dir/day5.1.c.s
+.PHONY : day5.1.c.s
+
+day5.2.o: day5.2.c.o
+
+.PHONY : day5.2.o
+
+# target to build an object file
+day5.2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day5.2.dir/build.make CMakeFiles/day5.2.dir/day5.2.c.o
+.PHONY : day5.2.c.o
+
+day5.2.i: day5.2.c.i
+
+.PHONY : day5.2.i
+
+# target to preprocess a source file
+day5.2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day5.2.dir/build.make CMakeFiles/day5.2.dir/day5.2.c.i
+.PHONY : day5.2.c.i
+
+day5.2.s: day5.2.c.s
+
+.PHONY : day5.2.s
+
+# target to generate assembly for a file
+day5.2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day5.2.dir/build.make CMakeFiles/day5.2.dir/day5.2.c.s
+.PHONY : day5.2.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -465,6 +545,8 @@ help:
 	@echo "... day3.2"
 	@echo "... day4.1"
 	@echo "... day4.2"
+	@echo "... day5.1"
+	@echo "... day5.2"
 	@echo "... day1.1.o"
 	@echo "... day1.1.i"
 	@echo "... day1.1.s"
@@ -489,6 +571,12 @@ help:
 	@echo "... day4.2.o"
 	@echo "... day4.2.i"
 	@echo "... day4.2.s"
+	@echo "... day5.1.o"
+	@echo "... day5.1.i"
+	@echo "... day5.1.s"
+	@echo "... day5.2.o"
+	@echo "... day5.2.i"
+	@echo "... day5.2.s"
 .PHONY : help
 
 

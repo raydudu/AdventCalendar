@@ -42,12 +42,14 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/day4.2.dir/DependInfo.cmake"
-  "CMakeFiles/day3.2.dir/DependInfo.cmake"
-  "CMakeFiles/day1.1.dir/DependInfo.cmake"
-  "CMakeFiles/day4.1.dir/DependInfo.cmake"
-  "CMakeFiles/day1.2.dir/DependInfo.cmake"
-  "CMakeFiles/day2.2.dir/DependInfo.cmake"
-  "CMakeFiles/day3.1.dir/DependInfo.cmake"
   "CMakeFiles/day2.1.dir/DependInfo.cmake"
+  "CMakeFiles/day3.1.dir/DependInfo.cmake"
+  "CMakeFiles/day2.2.dir/DependInfo.cmake"
+  "CMakeFiles/day4.1.dir/DependInfo.cmake"
+  "CMakeFiles/day5.2.dir/DependInfo.cmake"
+  "CMakeFiles/day1.1.dir/DependInfo.cmake"
+  "CMakeFiles/day3.2.dir/DependInfo.cmake"
+  "CMakeFiles/day1.2.dir/DependInfo.cmake"
+  "CMakeFiles/day4.2.dir/DependInfo.cmake"
+  "CMakeFiles/day5.1.dir/DependInfo.cmake"
   )
