@@ -1,5 +1,7 @@
 /home/borysmn/Proj/AdventCalendar/2020/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /home/borysmn/Proj/AdventCalendar/2020/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/borysmn/Proj/AdventCalendar/2020/cmake-build-debug/CMakeFiles/day6.2.dir
+/home/borysmn/Proj/AdventCalendar/2020/cmake-build-debug/CMakeFiles/day6.1.dir
 /home/borysmn/Proj/AdventCalendar/2020/cmake-build-debug/CMakeFiles/day2.1.dir
 /home/borysmn/Proj/AdventCalendar/2020/cmake-build-debug/CMakeFiles/day3.1.dir
 /home/borysmn/Proj/AdventCalendar/2020/cmake-build-debug/CMakeFiles/day2.2.dir

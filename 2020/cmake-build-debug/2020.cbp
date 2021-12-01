@@ -37,6 +37,86 @@
 					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/borysmn/Proj/AdventCalendar/2020/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="day6.2">
+				<Option output="/home/borysmn/Proj/AdventCalendar/2020/cmake-build-debug/day6.2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/borysmn/Proj/AdventCalendar/2020/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/borysmn/Proj/AdventCalendar/2020/cmake-build-debug/Makefile&quot;  VERBOSE=1 day6.2"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/borysmn/Proj/AdventCalendar/2020/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/borysmn/Proj/AdventCalendar/2020/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/borysmn/Proj/AdventCalendar/2020/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="day6.2/fast">
+				<Option output="/home/borysmn/Proj/AdventCalendar/2020/cmake-build-debug/day6.2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/borysmn/Proj/AdventCalendar/2020/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/borysmn/Proj/AdventCalendar/2020/cmake-build-debug/Makefile&quot;  VERBOSE=1 day6.2/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/borysmn/Proj/AdventCalendar/2020/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/borysmn/Proj/AdventCalendar/2020/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/borysmn/Proj/AdventCalendar/2020/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="day6.1">
+				<Option output="/home/borysmn/Proj/AdventCalendar/2020/cmake-build-debug/day6.1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/borysmn/Proj/AdventCalendar/2020/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/borysmn/Proj/AdventCalendar/2020/cmake-build-debug/Makefile&quot;  VERBOSE=1 day6.1"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/borysmn/Proj/AdventCalendar/2020/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/borysmn/Proj/AdventCalendar/2020/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/borysmn/Proj/AdventCalendar/2020/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="day6.1/fast">
+				<Option output="/home/borysmn/Proj/AdventCalendar/2020/cmake-build-debug/day6.1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/borysmn/Proj/AdventCalendar/2020/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/borysmn/Proj/AdventCalendar/2020/cmake-build-debug/Makefile&quot;  VERBOSE=1 day6.1/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/borysmn/Proj/AdventCalendar/2020/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/borysmn/Proj/AdventCalendar/2020/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/borysmn/Proj/AdventCalendar/2020/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="day2.1">
 				<Option output="/home/borysmn/Proj/AdventCalendar/2020/cmake-build-debug/day2.1" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/borysmn/Proj/AdventCalendar/2020/cmake-build-debug"/>
@@ -467,6 +547,12 @@
 		</Unit>
 		<Unit filename="/home/borysmn/Proj/AdventCalendar/2020/day5.2.c">
 			<Option target="day5.2"/>
+		</Unit>
+		<Unit filename="/home/borysmn/Proj/AdventCalendar/2020/day6.1.c">
+			<Option target="day6.1"/>
+		</Unit>
+		<Unit filename="/home/borysmn/Proj/AdventCalendar/2020/day6.2.c">
+			<Option target="day6.2"/>
 		</Unit>
 		<Unit filename="/home/borysmn/Proj/AdventCalendar/2020/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

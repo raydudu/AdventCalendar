@@ -130,6 +130,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named day6.2
+
+# Build rule for target.
+day6.2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day6.2
+.PHONY : day6.2
+
+# fast build rule for target.
+day6.2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day6.2.dir/build.make CMakeFiles/day6.2.dir/build
+.PHONY : day6.2/fast
+
+#=============================================================================
+# Target rules for targets named day6.1
+
+# Build rule for target.
+day6.1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day6.1
+.PHONY : day6.1
+
+# fast build rule for target.
+day6.1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day6.1.dir/build.make CMakeFiles/day6.1.dir/build
+.PHONY : day6.1/fast
+
+#=============================================================================
 # Target rules for targets named day2.1
 
 # Build rule for target.
@@ -529,6 +555,60 @@ day5.2.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/day5.2.dir/build.make CMakeFiles/day5.2.dir/day5.2.c.s
 .PHONY : day5.2.c.s
 
+day6.1.o: day6.1.c.o
+
+.PHONY : day6.1.o
+
+# target to build an object file
+day6.1.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day6.1.dir/build.make CMakeFiles/day6.1.dir/day6.1.c.o
+.PHONY : day6.1.c.o
+
+day6.1.i: day6.1.c.i
+
+.PHONY : day6.1.i
+
+# target to preprocess a source file
+day6.1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day6.1.dir/build.make CMakeFiles/day6.1.dir/day6.1.c.i
+.PHONY : day6.1.c.i
+
+day6.1.s: day6.1.c.s
+
+.PHONY : day6.1.s
+
+# target to generate assembly for a file
+day6.1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day6.1.dir/build.make CMakeFiles/day6.1.dir/day6.1.c.s
+.PHONY : day6.1.c.s
+
+day6.2.o: day6.2.c.o
+
+.PHONY : day6.2.o
+
+# target to build an object file
+day6.2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day6.2.dir/build.make CMakeFiles/day6.2.dir/day6.2.c.o
+.PHONY : day6.2.c.o
+
+day6.2.i: day6.2.c.i
+
+.PHONY : day6.2.i
+
+# target to preprocess a source file
+day6.2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day6.2.dir/build.make CMakeFiles/day6.2.dir/day6.2.c.i
+.PHONY : day6.2.c.i
+
+day6.2.s: day6.2.c.s
+
+.PHONY : day6.2.s
+
+# target to generate assembly for a file
+day6.2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/day6.2.dir/build.make CMakeFiles/day6.2.dir/day6.2.c.s
+.PHONY : day6.2.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -547,6 +627,8 @@ help:
 	@echo "... day4.2"
 	@echo "... day5.1"
 	@echo "... day5.2"
+	@echo "... day6.1"
+	@echo "... day6.2"
 	@echo "... day1.1.o"
 	@echo "... day1.1.i"
 	@echo "... day1.1.s"
@@ -577,6 +659,12 @@ help:
 	@echo "... day5.2.o"
 	@echo "... day5.2.i"
 	@echo "... day5.2.s"
+	@echo "... day6.1.o"
+	@echo "... day6.1.i"
+	@echo "... day6.1.s"
+	@echo "... day6.2.o"
+	@echo "... day6.2.i"
+	@echo "... day6.2.s"
 .PHONY : help
 
 
