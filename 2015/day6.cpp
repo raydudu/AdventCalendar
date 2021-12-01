@@ -1,6 +1,6 @@
-
 #include <fstream>
 #include <iostream>
+#include "BMP.h"
 
 template <class T, unsigned size_x, unsigned size_y> class Grid {
 public:
@@ -72,6 +72,22 @@ public:
             std::cout << (grid[i] ? '*' : 'O');
         }
 
+    }
+    void writeBMP(const std::string &fn) {
+        std::ofstream f(fn);
+        BMP img(size_x, size_y);
+
+        img.writeHeader(f);
+        uint8_t buf[img.sizeofImgBuf()];
+        for(unsigned i = 0; i < size_y * size_x; i++) {
+            buf[i * 3 + 0] = grid[i] + 255;
+            buf[i * 3 + 1] = grid[i] + 255;
+            buf[i * 3 + 2] = grid[i] + 255;
+        }
+
+        img.writeImgBuf(f, buf);
+
+        f.close();
     }
 
 private:
@@ -166,8 +182,10 @@ int main(int argc, char *argv[]) {
     f.close();
 
     std::cout << "P1: Number of leds on: " << leds.total() << std::endl;
-    std::cout << "P2: Number of analog leds on: " << aleds.total() << std::endl;
+    leds.writeBMP("leds.BMP");
 
+    std::cout << "P2: Number of analog leds on: " << aleds.total() << std::endl;
+    aleds.writeBMP("aleds.BMP");
     return 0;
 }
 #endif
