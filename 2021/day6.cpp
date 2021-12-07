@@ -1,5 +1,4 @@
 #include <iostream>
-#include <algorithm>
 #include <cstring>
 #include <numeric>
 
@@ -11,7 +10,7 @@ static constexpr auto counts = 9;
 int main(int argc, char *argv[]) {
     unsigned long fishcount[counts] = {0, };
     unsigned long sum80 = 0;
-    unsigned long sum = 0;
+    unsigned long sum;
 
     for (auto &f: fish) {
         fishcount[f]++;
@@ -19,7 +18,7 @@ int main(int argc, char *argv[]) {
 
     for(int d = 0; d < 256; d++) {
         if (d == 80) {
-            sum80 = std::accumulate(fishcount, fishcount + counts, sum80);
+            sum80 = std::accumulate(fishcount, fishcount + counts, 0UL);
         }
 
         unsigned long newcount[counts] = {0, };
@@ -32,7 +31,7 @@ int main(int argc, char *argv[]) {
     }
 
     std::cout << "P1 fishcount: " << sum80 << std::endl;
-    sum = std::accumulate(fishcount, fishcount + counts, sum);
+    sum = std::accumulate(fishcount, fishcount + counts, 0UL);
     std::cout << "P2 fishcount: " << sum << std::endl;
 
     return 0;
