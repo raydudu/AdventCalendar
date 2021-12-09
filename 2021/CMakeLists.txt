@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 17)
 
 find_package(BISON REQUIRED)
 
-add_executable(day1 day1.cpp)
+add_executable(day1 day1.cpp day9.cpp)
 
 bison_target(day2cc day2cc.y ${CMAKE_CURRENT_BINARY_DIR}/day2cc.c)
 add_executable(day2 day2.cpp ${CMAKE_CURRENT_BINARY_DIR}/day2cc.c)
@@ -21,4 +21,6 @@ add_executable(day6 day6.cpp day6.input)
 
 add_executable(day7 day7.cpp day7.input)
 
-add_executable(day8 day8.cpp)
+add_executable(day8_p2 day8.cpp)
+
+add_executable(day9 day9.cpp)

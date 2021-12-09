@@ -93,6 +93,11 @@ int main(int argc, char *argv[]) {
     std::string word;
     int sum = 0;
 
+    if (!f.good()) {
+        std::cerr << "File open error: " << strerror(errno) << std::endl;
+        return 1;
+    }
+
     do {
         std::string cd[10];
         int map[10];

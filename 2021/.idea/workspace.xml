@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="2021" targetName="day9" />
+      <config projectName="2021" targetName="day7" />
+      <config projectName="2021" targetName="day5" />
+      <config projectName="2021" targetName="day6" />
+      <config projectName="2021" targetName="day3" />
+      <config projectName="2021" targetName="day4" />
+      <config projectName="2021" targetName="day1" />
+      <config projectName="2021" targetName="day2" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+      <configuration PROFILE_NAME="Release" ENABLED="true" CONFIG_NAME="Release" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4e40ef94-3771-4295-a1fb-9546f74ed0ae" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day9.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/day9.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="21g9JDfjHTzzubAI7WCMdf3m5Hx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="cmake.loaded.for.project" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../bachata/PowerMe/powerme.ioc" />
+    <property name="settings.editor.selected.configurable" value="com.github.johnthagen.cppcheck.Configuration" />
+  </component>
+  <component name="RunManager" selected="CMake Application.day9">
+    <list>
+      <item itemvalue="CMake Application.day1" />
+      <item itemvalue="CMake Application.day2" />
+      <item itemvalue="CMake Application.day3" />
+      <item itemvalue="CMake Application.day4" />
+      <item itemvalue="CMake Application.day5" />
+      <item itemvalue="CMake Application.day6" />
+      <item itemvalue="CMake Application.day7" />
+      <item itemvalue="CMake Application.day8_p2" />
+      <item itemvalue="CMake Application.day9" />
+      <item itemvalue="Shell Script.day8_p1.sh" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4e40ef94-3771-4295-a1fb-9546f74ed0ae" name="Default Changelist" comment="" />
+      <created>1638351789519</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1638351789519</updated>
+    </task>
+    <task id="LOCAL-00001" summary="2021: day1 solution">
+      <created>1638357593366</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1638357593366</updated>
+    </task>
+    <task id="LOCAL-00002" summary="2021: day2 solution">
+      <created>1638474981016</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1638474981016</updated>
+    </task>
+    <task id="LOCAL-00003" summary="2021: day2 solution&#10;&#10;Change-Id: I6d9dab5b67c1c1f6ac323b02b51f7340f5aa55ea">
+      <created>1638475816193</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1638475816193</updated>
+    </task>
+    <task id="LOCAL-00004" summary="2021: day3 solution">
+      <created>1638532971089</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1638532971089</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add missing task files">
+      <created>1638785943518</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1638785943518</updated>
+    </task>
+    <task id="LOCAL-00006" summary="2021: day9 solution">
+      <created>1639072249695</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1639072249695</updated>
+    </task>
+    <task id="LOCAL-00007" summary="2021: day9 solution&#10;&#10;Change-Id: I017ca60dc0ec0601b874d2f919aaf60143a42135">
+      <created>1639072288179</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1639072288179</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2021: day1 solution" />
+    <MESSAGE value="2021: day2 solution" />
+    <MESSAGE value="2021: day2 solution&#10;&#10;Change-Id: I6d9dab5b67c1c1f6ac323b02b51f7340f5aa55ea" />
+    <MESSAGE value="2021: day3 solution" />
+    <MESSAGE value="Add missing task files" />
+    <MESSAGE value="2021: day9 solution" />
+    <MESSAGE value="2021: day9 solution&#10;&#10;Change-Id: I017ca60dc0ec0601b874d2f919aaf60143a42135" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021: day9 solution&#10;&#10;Change-Id: I017ca60dc0ec0601b874d2f919aaf60143a42135" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="*visit @ 50" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
