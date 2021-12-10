@@ -89,7 +89,7 @@ void decode(std::string *d, int *map) {
 
 int main(int argc, char *argv[]) {
 
-    std::ifstream f("day8.input");
+    std::ifstream f("day08.input");
     std::string word;
     int sum = 0;
 

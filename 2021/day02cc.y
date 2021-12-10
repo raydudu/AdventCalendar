@@ -28,7 +28,7 @@ done: seq { print_part_one(depth, distance);
           }
     ;
 
-seq: %empty
+seq:
    | seq command
    ;
 

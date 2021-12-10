@@ -2,14 +2,16 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="2021" targetName="day9" />
-      <config projectName="2021" targetName="day7" />
-      <config projectName="2021" targetName="day5" />
-      <config projectName="2021" targetName="day6" />
-      <config projectName="2021" targetName="day3" />
-      <config projectName="2021" targetName="day4" />
-      <config projectName="2021" targetName="day1" />
-      <config projectName="2021" targetName="day2" />
+      <config projectName="2021" targetName="day07" />
+      <config projectName="2021" targetName="day05" />
+      <config projectName="2021" targetName="day08_p2" />
+      <config projectName="2021" targetName="day06" />
+      <config projectName="2021" targetName="day03" />
+      <config projectName="2021" targetName="day04" />
+      <config projectName="2021" targetName="day01" />
+      <config projectName="2021" targetName="day02" />
+      <config projectName="2021" targetName="day10" />
+      <config projectName="2021" targetName="day09" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -19,10 +21,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e40ef94-3771-4295-a1fb-9546f74ed0ae" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day9.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/day9.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="4e40ef94-3771-4295-a1fb-9546f74ed0ae" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +30,6 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
     <option name="UPDATE_TYPE" value="REBASE" />
@@ -58,25 +56,27 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../bachata/PowerMe/powerme.ioc" />
-    <property name="settings.editor.selected.configurable" value="com.github.johnthagen.cppcheck.Configuration" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="CMake Application.day9">
+  <component name="RunManager" selected="Shell Script.day08_p1.sh">
     <list>
-      <item itemvalue="CMake Application.day1" />
-      <item itemvalue="CMake Application.day2" />
-      <item itemvalue="CMake Application.day3" />
-      <item itemvalue="CMake Application.day4" />
-      <item itemvalue="CMake Application.day5" />
-      <item itemvalue="CMake Application.day6" />
-      <item itemvalue="CMake Application.day7" />
-      <item itemvalue="CMake Application.day8_p2" />
-      <item itemvalue="CMake Application.day9" />
-      <item itemvalue="Shell Script.day8_p1.sh" />
+      <item itemvalue="CMake Application.day01" />
+      <item itemvalue="CMake Application.day02" />
+      <item itemvalue="CMake Application.day03" />
+      <item itemvalue="CMake Application.day04" />
+      <item itemvalue="CMake Application.day05" />
+      <item itemvalue="CMake Application.day06" />
+      <item itemvalue="CMake Application.day07" />
+      <item itemvalue="CMake Application.day08_p2" />
+      <item itemvalue="CMake Application.day09" />
+      <item itemvalue="CMake Application.day10" />
+      <item itemvalue="Shell Script.day08_p1.sh" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -137,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639072288179</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="2021: day10 solution + repo cleanup">
+      <created>1639131713665</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1639131713665</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -148,13 +155,7 @@
     <MESSAGE value="Add missing task files" />
     <MESSAGE value="2021: day9 solution" />
     <MESSAGE value="2021: day9 solution&#10;&#10;Change-Id: I017ca60dc0ec0601b874d2f919aaf60143a42135" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021: day9 solution&#10;&#10;Change-Id: I017ca60dc0ec0601b874d2f919aaf60143a42135" />
-  </component>
-  <component name="XDebuggerManager">
-    <watches-manager>
-      <configuration name="CMakeRunConfiguration">
-        <watch expression="*visit @ 50" />
-      </configuration>
-    </watches-manager>
+    <MESSAGE value="2021: day10 solution + repo cleanup" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021: day10 solution + repo cleanup" />
   </component>
 </project>

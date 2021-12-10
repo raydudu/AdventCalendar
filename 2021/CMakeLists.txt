@@ -5,22 +5,24 @@ set(CMAKE_CXX_STANDARD 17)
 
 find_package(BISON REQUIRED)
 
-add_executable(day1 day1.cpp day9.cpp)
+add_executable(day01 day01.cpp)
 
-bison_target(day2cc day2cc.y ${CMAKE_CURRENT_BINARY_DIR}/day2cc.c)
-add_executable(day2 day2.cpp ${CMAKE_CURRENT_BINARY_DIR}/day2cc.c)
-target_include_directories(day2 PRIVATE ${CMAKE_CURRENT_BINARY_DIR})
+bison_target(day2cc day02cc.y ${CMAKE_CURRENT_BINARY_DIR}/day02cc.c)
+add_executable(day02 day02.cpp ${CMAKE_CURRENT_BINARY_DIR}/day02cc.c ${CMAKE_CURRENT_BINARY_DIR}/day02cc.h)
+target_include_directories(day02 PRIVATE ${CMAKE_CURRENT_BINARY_DIR})
 
-add_executable(day3 day3.cpp)
+add_executable(day03 day03.cpp)
 
-add_executable(day4 day4.cpp)
+add_executable(day04 day04.cpp)
 
-add_executable(day5 day5.cpp)
+add_executable(day05 day05.cpp)
 
-add_executable(day6 day6.cpp day6.input)
+add_executable(day06 day06.cpp day06.input)
 
-add_executable(day7 day7.cpp day7.input)
+add_executable(day07 day07.cpp day07.input)
 
-add_executable(day8_p2 day8.cpp)
+add_executable(day08_p2 day08.cpp)
 
-add_executable(day9 day9.cpp)
+add_executable(day09 day09.cpp)
+
+add_executable(day10 day10.cpp)

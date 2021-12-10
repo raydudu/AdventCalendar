@@ -3,7 +3,7 @@
 #include <numeric>
 
 static int  subs[] = {
-#include "day7.input"
+#include "day07.input"
 };
 
 constexpr int subsn() {

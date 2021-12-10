@@ -8,7 +8,7 @@ static const auto bitnr = 5;
 static const auto fn = "day3_ex.input";
 #else
 static const auto bitnr = 12;
-static const auto fn = "day3.input";
+static const auto fn = "day03.input";
 #endif
 
 static void count_part2(std::vector<unsigned int> &bytes) {

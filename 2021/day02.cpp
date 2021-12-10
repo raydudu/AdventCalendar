@@ -3,15 +3,16 @@
 #include <algorithm>
 
 extern "C" {
-#include "day2cc.h"
-    int yylex();
+#include "day02cc.h"
+    int yylex(void);
     void yyerror(const char *msg);
+    int yyparse(void);
 
     void print_part_one(unsigned depth, unsigned distance);
     void print_part_two(unsigned depth, unsigned distance, unsigned aim);
 }
 
-static std::ifstream f("day2.input");
+static std::ifstream f("day02.input");
 
 void yyerror(const char *msg) {
     std::cout << "Parse error: " << msg << std::endl;

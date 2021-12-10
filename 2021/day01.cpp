@@ -69,7 +69,7 @@ static void part_two(const std::string &fn) {
 }
 
 int main([[maybe_unused]] int argc, [[maybe_unused]] char *argv[]) {
-    part_one("day1.input");
-    part_two("day1.input");
+    part_one("day01.input");
+    part_two("day01.input");
     return 0;
 }

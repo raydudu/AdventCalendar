@@ -14,7 +14,7 @@ static const std::vector offs{
         std::pair(0, -1)
 };
 
-#if 0
+#if 1
 unsigned int basin_size(std::vector<std::string> &map, bool *visit, std::pair<int, int> dim, std::pair<int, int> p) {
 
     if (visit[p.first + p.second * dim.first] || map[p.second].c_str()[p.first] == 9) {
@@ -65,7 +65,7 @@ unsigned int basin_size(std::vector<std::string> &map, bool *visited, std::pair<
 #endif
 
 int main(int argc, char *argv[]) {
-    std::ifstream f("day9.input");
+    std::ifstream f("day09.input");
     std::string word;
     std::vector<std::string> map;
     unsigned riskpoint_cnt = 0;

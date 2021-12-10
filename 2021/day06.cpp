@@ -3,7 +3,7 @@
 #include <numeric>
 
 static constexpr char  fish[] = {
-#include "day6.input"
+#include "day06.input"
 };
 static constexpr auto counts = 9;
 

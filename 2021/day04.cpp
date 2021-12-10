@@ -6,7 +6,7 @@
 static const auto boardwidth = 5;
 
 int main(int argc, char *argv[]) {
-    std::ifstream f("day4.input");
+    std::ifstream f("day04.input");
     std::string word;
     std::vector<int> draw;
     int fwin_score;

@@ -11,7 +11,7 @@ static int map2[edge_len * edge_len];
 #define pmap2(_x, _y) map2[(_y) * edge_len + (_x)]
 
 int main(int argc, char *argv[]) {
-    std::ifstream f("day5.input");
+    std::ifstream f("day05.input");
     std::string line;
 
     while (std::getline(f, line)) {
