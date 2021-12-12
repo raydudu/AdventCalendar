@@ -9,9 +9,11 @@
       <config projectName="2021" targetName="day03" />
       <config projectName="2021" targetName="day04" />
       <config projectName="2021" targetName="day01" />
+      <config projectName="2021" targetName="day12" />
       <config projectName="2021" targetName="day02" />
-      <config projectName="2021" targetName="day10" />
       <config projectName="2021" targetName="day09" />
+      <config projectName="2021" targetName="day10" />
+      <config projectName="2021" targetName="day11" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -21,7 +23,15 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e40ef94-3771-4295-a1fb-9546f74ed0ae" name="Default Changelist" comment="" />
+    <list default="true" id="4e40ef94-3771-4295-a1fb-9546f74ed0ae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/day11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day11.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day11_ex.input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day09.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/day09.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +40,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
     <option name="UPDATE_TYPE" value="REBASE" />
@@ -61,10 +72,21 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../bachata/PowerMe/powerme.ioc" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="structure.view.defaults.are.configured" value="true" />
   </component>
-  <component name="RunManager" selected="Shell Script.day08_p1.sh">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="CMake Application.day12">
+    <configuration name="day12" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$ProjectFileDir$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="2021" TARGET_NAME="day12" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="2021" RUN_TARGET_NAME="day12">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="CMake Application.day01" />
       <item itemvalue="CMake Application.day02" />
@@ -76,6 +98,8 @@
       <item itemvalue="CMake Application.day08_p2" />
       <item itemvalue="CMake Application.day09" />
       <item itemvalue="CMake Application.day10" />
+      <item itemvalue="CMake Application.day11" />
+      <item itemvalue="CMake Application.day12" />
       <item itemvalue="Shell Script.day08_p1.sh" />
     </list>
   </component>
@@ -144,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639131713665</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="2021: day10 solution + repo cleanup">
+      <created>1639131743997</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1639131743997</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
