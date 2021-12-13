@@ -33,7 +33,7 @@ int flash(std::vector<std::string> &map, std::pair<int, int> point) {
             if (np.first >= 0 && np.first < map[0].length() && np.second >= 0 && np.second < map.size()) {
                 if (map[np.second][np.first] != std::numeric_limits<char>::min()) {
                     map[np.second][np.first]++;
-                    if (map[np.second][np.first] >= 10`) {
+                    if (map[np.second][np.first] >= 10) {
                         map[np.second][np.first] = std::numeric_limits<char>::min();
                         q.push(np);
                     }

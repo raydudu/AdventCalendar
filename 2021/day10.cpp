@@ -2,6 +2,8 @@
 #include <fstream>
 #include <map>
 #include <vector>
+#include <stack>
+#include <algorithm>
 
 static const std::map<char, unsigned> score = {
         {')', 3 },

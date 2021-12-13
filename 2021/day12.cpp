@@ -4,6 +4,7 @@
 #include <fstream>
 #include <iostream>
 #include <queue>
+#include <algorithm>
 
 
 int traverse(std::map<std::string, std::vector<std::string>> &map, bool dvisit) {

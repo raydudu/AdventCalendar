@@ -1,6 +1,8 @@
 #include <iostream>
 #include <cstring>
 #include <numeric>
+#include <algorithm>
+#include <cassert>
 
 static int  subs[] = {
 #include "day07.input"

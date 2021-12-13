@@ -2,6 +2,7 @@
 #include <vector>
 #include <sstream>
 #include <iostream>
+#include <algorithm>
 
 static const auto boardwidth = 5;
 
@@ -18,7 +19,7 @@ int main(int argc, char *argv[]) {
     f >> word;
 
     std::stringstream parser(word);
-    for (int i; parser >> i;){
+    for (int i = 0; parser >> i;){
         draw.push_back(i);
         if (!isdigit(parser.peek())) {
             parser.ignore();
