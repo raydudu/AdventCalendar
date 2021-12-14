@@ -7,6 +7,7 @@
       <config projectName="2021" targetName="day08_p2" />
       <config projectName="2021" targetName="day06" />
       <config projectName="2021" targetName="day03" />
+      <config projectName="2021" targetName="day14" />
       <config projectName="2021" targetName="day04" />
       <config projectName="2021" targetName="day01" />
       <config projectName="2021" targetName="day12" />
@@ -24,12 +25,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e40ef94-3771-4295-a1fb-9546f74ed0ae" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day04.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/day04.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day07.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/day07.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day10.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/day10.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/day11.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day12.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/day12.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day14.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day14.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day14.input" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +70,7 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/STM32Cube/Projects/tb6613ftg_breakout_board" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="structure.view.defaults.are.configured" value="true" />
   </component>
@@ -80,13 +79,18 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.day12">
+  <component name="RunManager" selected="CMake Application.day14">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
     <configuration name="day12" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$ProjectFileDir$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="2021" TARGET_NAME="day12" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="2021" RUN_TARGET_NAME="day12">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="day14" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$ProjectFileDir$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="2021" TARGET_NAME="day14" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="2021" RUN_TARGET_NAME="day14">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -104,6 +108,7 @@
       <item itemvalue="CMake Application.day10" />
       <item itemvalue="CMake Application.day11" />
       <item itemvalue="CMake Application.day12" />
+      <item itemvalue="CMake Application.day14" />
       <item itemvalue="Shell Script.day08_p1.sh" />
     </list>
   </component>
@@ -165,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639072288179</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="2021: make it compile on Linux">
+      <created>1639397970180</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1639397970180</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -176,7 +188,8 @@
     <MESSAGE value="Add missing task files" />
     <MESSAGE value="2021: day9 solution" />
     <MESSAGE value="2021: day9 solution&#10;&#10;Change-Id: I017ca60dc0ec0601b874d2f919aaf60143a42135" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021: day9 solution&#10;&#10;Change-Id: I017ca60dc0ec0601b874d2f919aaf60143a42135" />
+    <MESSAGE value="2021: make it compile on Linux" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021: make it compile on Linux" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
