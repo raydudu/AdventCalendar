@@ -2,9 +2,7 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-#include <cmath>
 #include <list>
-#include <iomanip>
 
 struct Node {
     bool visited;
