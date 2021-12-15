@@ -1,6 +1,9 @@
 #include <fstream>
 #include <iostream>
 #include <vector>
+#include <cassert>
+#include <algorithm>
+#include <cstring>
 
 
 int main(int argc, char *argv[]) {
