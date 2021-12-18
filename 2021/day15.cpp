@@ -19,7 +19,7 @@ static const std::vector offs{
 };
 
 
-int traverse(std::vector<std::string> &map) {
+unsigned traverse(std::vector<std::string> &map) {
     auto width = map[0].length();
     auto height = map.size();
 
@@ -78,7 +78,7 @@ int traverse(std::vector<std::string> &map) {
     return target->totalRisk;
 }
 
-int main(int argc, char *argv[]) {
+int main([[maybe_unused]] int argc, [[maybe_unused]] char *argv[]) {
     std::ifstream f("day15.input");
     std::string line;
     std::vector<std::string> map;
@@ -104,7 +104,7 @@ int main(int argc, char *argv[]) {
         s.resize(l * 5);
         for (unsigned i = 0; i < l; i++) {
             for(unsigned st = 1; st < 5; st++) {
-                char nv = s[i + l * (st - 1)] + 1;
+                char nv = (char)(s[i + l * (st - 1)] + 1);
                 if (nv > 9) {
                     s[i + l * st] = 1;
                 } else {
